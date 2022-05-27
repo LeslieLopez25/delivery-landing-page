@@ -165,7 +165,7 @@ img {
   }
 }
 
-.nav__menu__list {
+.nav__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -179,14 +179,18 @@ img {
   row-gap: 1.5rem;
 }
 
-.nav__menu__link, .nav__menu__logo, .nav__menu__toggle {
+.nav__link, .nav__logo, .nav__toggle {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
 }
 
-.nav__menu__toggle {
+.nav__toggle {
   font-size: 1.3rem;
   cursor: pointer;
+}
+
+.show-menu {
+  top: calc(var(--header-height) + 1rem);
 }
 
 .button__header {

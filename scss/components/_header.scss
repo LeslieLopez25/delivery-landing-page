@@ -31,24 +31,29 @@
             border-radius: 2rem;
             z-index: var(--z-fixed);
         }
-
-        &__list {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            row-gap: 1.5rem;
-        }
-
-        &__link,
-        &__logo,
-        &__toggle {
-            color: var(--title-color);
-            font-weight: var(--font-semi-bold);
-        }
-
-        &__toggle {
-            font-size: 1.3rem;
-            cursor: pointer;
-        }
     }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1.5rem;
+    }
+
+    &__link,
+    &__logo,
+    &__toggle {
+        color: var(--title-color);
+        font-weight: var(--font-semi-bold);
+    }
+
+    &__toggle {
+        font-size: 1.3rem;
+        cursor: pointer;
+    }
+}
+
+// SHOW MENU
+.show-menu {
+    top: calc(var(--header-height) + 1rem); // 4rem
 }

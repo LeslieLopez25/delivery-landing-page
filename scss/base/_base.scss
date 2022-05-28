@@ -3,8 +3,8 @@
 ::before,
 ::after {
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
 html {
@@ -12,12 +12,12 @@ html {
 }
 
 body {
-    margin: var(--header-height);
+    margin: var(--header-height) 0 0 0;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
-    background-color: var(--body-font);
+    background-color: var(--body-color);
     color: var(--text-color);
-    // transition: .5s; // For animation dark mode
+    transition: .5s; // For animation dark mode
 }
 
 h1,
